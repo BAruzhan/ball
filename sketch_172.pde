@@ -1,7 +1,7 @@
-Ball ball[] = new Ball[150];    //Array
+Ball ball[] = new Ball[400];    //Array
  
 void setup() {
-  size(400,400);
+  size(800,800);
  
   for(int i=0; i<ball.length; i++) {
     ball[i] = new Ball(300,300,(int)random(-3,3),(int)random(-3,3));
